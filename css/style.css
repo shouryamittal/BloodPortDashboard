@@ -216,7 +216,7 @@ nav,header, main, footer
 .info_heading
 {
 	color:  #B71C1C;
-	font-size: 18px;
+	font-size: 22px;
 }
 .total
 {
@@ -231,7 +231,35 @@ nav,header, main, footer
 
 }
 
+.select-wrapper input.select-dropdown{
+  color: #c62828;
+}
 
+select:disabled {
+  color: #c62828
+}
+
+.select-wrapper input.select-dropdown:disabled {
+  color: #c62828;
+}
+
+.select-dropdown li.disabled,
+.select-dropdown li.disabled > span,
+.select-dropdown li.optgroup {
+  color: #c62828;
+}
+
+.select-dropdown li.optgroup.selected > span {
+  color: #c62828;
+}
+
+.select-dropdown li.optgroup > span {
+  color: #c62828;
+}
+
+.select-wrapper span.caret {
+  color: #c62828;
+}
 
 @media only screen and (max-width : 992px) {
       

@@ -1,0 +1,19 @@
+{
+  "name": "bloodportdashboard-master",
+  "version": "1.0.0",
+  "description": "![alt tag](https://raw.github.com/dogfalo/materialize/master/images/materialize.gif) ===========",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "express": "^4.15.3",
+    "jquery": "^3.2.1",
+    "ng-file-upload": "^12.2.13",
+    "path": "^0.12.7",
+    "ui-router": "^1.0.0-alpha.3"
+  }
+}
